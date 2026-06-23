@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import { loadStripe } from '@stripe/js';
+import { loadStripe } from '@stripe/stripe-js';
 
 const WORKSHOPS = ['Direction', 'Acting', 'Photography', 'Videography', 'Modeling'];
 const PRICE_PER_WORKSHOP = 199;
